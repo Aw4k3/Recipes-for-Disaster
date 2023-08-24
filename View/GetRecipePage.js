@@ -1,0 +1,1 @@
+document.getElementById("get-recipe-button").addEventListener("click", document.getElementById("get-recipe-page").onsubmit());

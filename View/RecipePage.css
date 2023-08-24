@@ -1,0 +1,22 @@
+:root {
+    --corner-radius: 6px;
+}
+
+main {
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 600px auto;
+    gap: 20px;
+}
+
+.banner {
+    position: relative;
+    border-radius: var(--corner-radius);
+    overflow: hidden;
+}
+
+.banner > img {
+    position: absolute;
+    top: -40%;
+    object-fit: cover;
+}

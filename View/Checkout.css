@@ -1,0 +1,38 @@
+:root {
+    --corner-radius: 6px;
+    --primary-colour: #161612;
+    --secondary-colour: #000000;
+}
+
+main {
+    display: grid;
+    gap: 10px;
+}
+
+.collapsible {
+    display: grid;
+    gap: 10px;
+}
+
+.collapsible-content {
+    display: grid;
+    gap: 8px;
+}
+
+.collapsible-header > .material-symbols-outlined {
+    cursor: pointer;
+}
+
+.item-container {
+    display: grid;
+    grid-template-columns: auto 200px;
+    padding: 10px;
+    border: solid 1px black;
+    border-radius: var(--corner-radius);
+}
+
+.info-matrix {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+}

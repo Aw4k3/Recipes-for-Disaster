@@ -1,0 +1,22 @@
+main {
+    display: grid;
+    place-items: center;
+}
+
+.filter-panel {
+    width: 600px;
+}
+
+@media screen and (max-width: 630px) {
+    main {
+        place-items: unset;
+    }
+
+    .filter-panel {
+        width: auto;
+    }
+
+    .add-recipe-panel {
+        width: 100%;
+    }
+}
